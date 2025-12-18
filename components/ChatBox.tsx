@@ -168,7 +168,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ language }) => {
           </button>
         </div>
         <p className="text-[10px] text-center text-slate-400 mt-3 font-medium">
-          Powered by Gemini AI • Specializing in ESG & HSE
+          Specializing in ESG & HSE
         </p>
       </div>
     </div>
