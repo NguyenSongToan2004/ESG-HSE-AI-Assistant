@@ -82,7 +82,7 @@ const Sidebar: React.FC<SidebarProps> = ({ language, setLanguage }) => {
               language === Language.ALBANIAN ? 'bg-white shadow-sm border border-slate-200 text-slate-800 font-medium' : 'text-slate-500 hover:bg-white/50'
             }`}
           >
-            🇦🇱 ALBANIAN
+            🇦🇱 Albanian
           </button>
         </div>
         <div className="mt-4 text-[10px] text-center text-slate-400">

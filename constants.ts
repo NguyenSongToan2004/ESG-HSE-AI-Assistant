@@ -10,7 +10,9 @@ export const TRANSLATIONS: Record<Language, TranslationStrings> = {
     assistantName: 'ESG/HSE AI Assistant',
     guest: 'Khách',
     newChat: 'Trò chuyện mới',
-    settings: 'Cài đặt'
+    settings: 'Cài đặt',
+    greeting:
+      'Xin chào! Tôi là trợ lý ESG/HSE của bạn. Tôi có thể hỗ trợ bạn điều gì hôm nay?',
   },
   [Language.ENGLISH]: {
     home: 'Home',
@@ -20,7 +22,9 @@ export const TRANSLATIONS: Record<Language, TranslationStrings> = {
     assistantName: 'ESG/HSE AI Assistant',
     guest: 'Guest',
     newChat: 'New Chat',
-    settings: 'Settings'
+    settings: 'Settings',
+    greeting:
+      "Hello! I'm your specialized ESG/HSE assistant. How can I help you today?",
   },
   [Language.ALBANIAN]: {
     home: 'Kreu',
@@ -30,6 +34,8 @@ export const TRANSLATIONS: Record<Language, TranslationStrings> = {
     assistantName: 'ESG/HSE AI Asistenti',
     guest: 'Mysafir',
     newChat: 'Bisedë e Re',
-    settings: 'Cilësimet'
+    settings: 'Cilësimet',
+    greeting:
+      'Përshëndetje! Unë jam asistenti juaj ESG/HSE. Si mund t’ju ndihmoj sot?',
   }
 };

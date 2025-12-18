@@ -26,4 +26,5 @@ export interface TranslationStrings {
   guest: string;
   newChat: string;
   settings: string;
+  greeting : string;
 }

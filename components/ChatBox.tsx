@@ -106,7 +106,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ language }) => {
           <div className="h-full flex flex-col items-center justify-center text-center opacity-40">
             <div className="text-4xl mb-4">🌱</div>
             <p className="text-slate-500 text-sm max-w-xs leading-relaxed">
-              Hello! I'm your specialized ESG/HSE assistant. How can I help you today?
+              {t.greeting}
             </p>
           </div>
         ) : (
